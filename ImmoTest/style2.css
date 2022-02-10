@@ -1,0 +1,26 @@
+.buttonWrapper{
+
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap:40px;
+}
+.dateWrapper{
+
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+body{
+  align-items: center;
+}
+button{
+  width: 150px;
+  height:60px;
+  background-color: green;
+}
